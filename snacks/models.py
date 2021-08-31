@@ -11,5 +11,5 @@ class Snack(models.Model):
     def __str__(self) -> str:
         return self.title
 
-    def get_absolut_url(self):
+    def get_absolute_url(self):
         return reverse('snack_detail', args=str(self.id))
