@@ -5,10 +5,27 @@ body {
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+    margin: 10%;
+    padding: 20px;
 
 }
 a { color: inherit; 
 text-decoration: none;
 } 
+button, input{
+    margin: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+h3,h1{
+    margin: 5%;
+    font-weight: bolder;
+}
+label{
+    opacity: .5;
+
+}
